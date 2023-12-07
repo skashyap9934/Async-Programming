@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Masai Timer</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form action="">
+      <input type="number" name="hour" id="hr" placeholder="Hour" />
+      <input type="number" name="min" id="min" placeholder="Minute" />
+      <input type="number" name="sec" id="sec" placeholder="Second" />
+    </form>
+    <form action="">
+      <input type="button" value="Start" id="start" />
+      <input type="button" value="Pause" id="stop" />
+      <input type="button" value="Reset" id="reset" />
+    </form>
+    <div class="timer">
+      <span id="hour">0 h : </span>
+      <span id="minute">0 m : </span>
+      <span id="second">0 s</span>
+    </div>
+  </body>
+</html>
+<script src="script.js"></script>

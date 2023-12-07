@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+form {
+  display: flex;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding-block: 21px;
+}
+
+input {
+  padding: 11px 15px;
+  margin-inline: 11px;
+  border-radius: 11px;
+  outline: none;
+  border: none;
+  background: whitesmoke;
+  font-size: 21px;
+  font-family: serif;
+}
+
+form:nth-child(2) > input:hover {
+  cursor: pointer;
+  background: rgb(230, 227, 227);
+}
+
+.timer {
+  text-align: center;
+  margin-top: 25px;
+  font-size: 55px;
+  font-family: serif;
+}
+
+form:nth-child(2)  {
+    box-shadow: none;
+}

@@ -1,0 +1,50 @@
+body {
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  min-height: 100vh;
+  flex: 1;
+}
+
+#stop-watch {
+  display: flex;
+  margin: auto;
+  align-items: center;
+  border-radius: 11px;
+  padding-block: 31px;
+  flex-direction: column;
+}
+
+span {
+  margin-inline: 15px;
+  font-size: 75px;
+}
+
+#mil-sec {
+  font-size: 41px;
+}
+
+#buttons {
+  margin-top: 21px;
+}
+
+#buttons > input {
+  padding: 7px 15px;
+  outline: none;
+  border: none;
+  background-color: navy;
+  border-radius: 7px;
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 21px;
+}
+
+#buttons > input:hover {
+  cursor: pointer;
+  background-color: rgb(5, 5, 112);
+}
+
+#min,
+#hour {
+  display: none;
+}

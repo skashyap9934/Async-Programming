@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.slider {
+  display: flex;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+#image {
+  width: 100%;
+  height: 100vh;
+  border-radius: 11px;
+}
+
+.buttons {
+  display: flex;
+  margin: auto;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+}
+
+button {
+  font-size: 21px;
+  margin-inline: 11px;
+  padding: 21px;
+  outline: none;
+  background-color: whitesmoke;
+  color: red;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-radius: 100%;
+  border: none;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: rgb(228, 225, 225);
+}
